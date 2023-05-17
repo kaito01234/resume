@@ -1,0 +1,16 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "職務経歴書",
+  "scripts": {
+    "build:pdf": "md-to-pdf ./README.md --config-file ./pdf-configs/config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaito01234/resume.git"
+  },
+  "author": "kaito01234 <ogurakia@gmail.com>",
+  "devDependencies": {
+    "md-to-pdf": "^5.2.4"
+  }
+}
